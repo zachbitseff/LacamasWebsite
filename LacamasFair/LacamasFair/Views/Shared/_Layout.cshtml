@@ -3,11 +3,19 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - Lacamas Community Fair</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    
 </head>
 <body>
+    <h5 class="text-center">
+        Lacamas Community Center<br />
+        32113 8th Avenue South<br />
+        Roy, WA 98580
+    </h5>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -16,13 +24,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Lacamas Fair", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Fair", "Index", "Fair")</li>
+                    <li>@Html.ActionLink("Community Center", "Index", "CommunityCenter")</li>
+                    <li>@Html.ActionLink("Directions", "Directions", "Home")</li>
                 </ul>
             </div>
         </div>
@@ -30,8 +38,12 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        <footer class="text-center">
+            <p>&copy; @DateTime.Now.Year - Lacamas Community Fair</p>
+            <p><bold style="font-weight:900">In operation since 1929</bold></p>
+            <div class="fb-like" style="width:220px;" data-href="https://www.facebook.com/Lacamas-Community-Fair-227437937409797/?tn-str=k*F" data-width=""
+                 data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+
         </footer>
     </div>
 

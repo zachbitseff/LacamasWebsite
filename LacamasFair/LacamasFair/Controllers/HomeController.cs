@@ -15,6 +15,7 @@ namespace LacamasFair.Controllers
 
         public ActionResult Directions()
         {
+
             ViewBag.Message = "Your application description page.";
 
             return View();

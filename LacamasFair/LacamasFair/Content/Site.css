@@ -22,3 +22,10 @@ select,
 textarea {
     max-width: 280px;
 }
+
+#table-centered {
+    border: 1px solid black;
+    width: 40%;
+    border-collapse: collapse;
+    text-align: center;
+}
