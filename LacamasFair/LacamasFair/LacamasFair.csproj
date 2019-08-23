@@ -120,23 +120,32 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CommunityCenterController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Controllers\FairController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Documents\LacamasFairDirections.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Documents\FairBook.pdf" />
+    <Content Include="Documents\GeneralEntryForm.pdf" />
+    <Content Include="Documents\HorseEntryForm.pdf" />
+    <Content Include="Documents\HorseRelease.pdf" />
+    <Content Include="Documents\KKPlayDay.pdf" />
+    <Content Include="Documents\Portfolio Project Proposal.docx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -159,9 +168,19 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\Directions.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Fair\History.cshtml" />
+    <Content Include="Views\Fair\Purpose.cshtml" />
+    <Content Include="Views\Fair\Fairbook.cshtml" />
+    <Content Include="Views\Fair\EntryForms.cshtml" />
+    <Content Include="Views\CommunityCenter\Bingo.cshtml" />
+    <Content Include="Views\CommunityCenter\HolidayBazaar.cshtml" />
+    <Content Include="Views\CommunityCenter\HarvestFest.cshtml" />
+    <Content Include="Views\CommunityCenter\CommunityClub.cshtml" />
+    <Content Include="Views\CommunityCenter\FacilityRental.cshtml" />
+    <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\Contacts.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

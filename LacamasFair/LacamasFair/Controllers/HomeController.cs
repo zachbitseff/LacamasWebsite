@@ -13,17 +13,21 @@ namespace LacamasFair.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Directions()
         {
-            ViewBag.Message = "Your application description page.";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contacts()
         {
-            ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        // GET: Gallery
+        public ActionResult Gallery()
+        {
             return View();
         }
     }

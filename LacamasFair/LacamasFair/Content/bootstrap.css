@@ -3577,11 +3577,11 @@ tbody.collapse.in {
   transition-timing-function: ease;
 }
 .caret {
-  display: inline-block;
+  display: block;
   width: 0;
   height: 0;
   margin-left: 2px;
-  vertical-align: middle;
+  vertical-align: top;
   border-top: 4px dashed;
   border-top: 4px solid \9;
   border-right: 4px solid transparent;
