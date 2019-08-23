@@ -16,11 +16,19 @@ namespace LacamasFair.Controllers
         public ActionResult Directions()
         {
 
-            ViewBag.Message = "Your application description page.";
+            return View();
+        }
+
+        public ActionResult Contacts()
+        {
 
             return View();
         }
 
-
+        // GET: Gallery
+        public ActionResult Gallery()
+        {
+            return View();
+        }
     }
 }

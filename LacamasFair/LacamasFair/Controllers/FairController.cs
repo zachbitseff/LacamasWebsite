@@ -8,17 +8,7 @@ namespace LacamasFair.Views.Home
 {
     public class FairController : Controller
     {
-        // GET: Fair
-        public ActionResult Index()
-        {
-            return View();
-        }
 
-        // GET: Contact
-        public ActionResult Contact()
-        {
-            return View();
-        }
 
         // GET: EntryForms
         public ActionResult EntryForms()

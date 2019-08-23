@@ -15,11 +15,8 @@ namespace LacamasFair.Controllers
             return View();
         }
 
-        // GET: Contact
-        public ActionResult Contact()
-        {
-            return View();
-        }
+        
+
 
         // GET: Bingo
         public ActionResult Bingo()
