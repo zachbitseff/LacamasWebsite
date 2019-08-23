@@ -15,3 +15,7 @@ The goal of this project is to remake the current LacamasFair.org website into a
 
 ## Hosting
 Web traffic is currently unknown by the client but they have 300 - 400 exhibitors for the fair, plus website visitors
+
+##Links
+Old/Current site: http://lacamasfair.org/ 
+Facebook Group: https://facebook.com/pages/category/Community/Lacamas-Community-Fair-227437937409797/
